@@ -1,0 +1,63 @@
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Compiled output directories
+backend/target/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+*.properties
+
+# Application configuration secrets (Keep your DB passwords out of Git!)
+backend/src/main/resources/application-secret.yml
+backend/src/main/resources/application-dev.yml
+
+# Dependency directories
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Production build output
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment Variables (Keep JWT secrets and API keys safe)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Vite / Testing caches
+frontend/node_modules/.vite/
+frontend/coverage/
+
+# Postman environment/collection files if you test locally
+*.postman_environment.json
+*.postman_collection.json
